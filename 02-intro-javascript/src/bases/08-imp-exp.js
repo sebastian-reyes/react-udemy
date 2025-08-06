@@ -3,7 +3,7 @@ import  heroes, {owners}  from '../data/heroes';
 console.log(heroes);
 console.log(owners);
 
-const getHeroById = (id) => {
+export const getHeroById = (id) => {
     return heroes.find(hero => hero.id === id);
 }
 
